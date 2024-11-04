@@ -13,9 +13,9 @@ local fields = {}
 
 local gyroSampleRateKhz
 
-if bf.apiVersion >= 1.44 then
-    gyroSampleRateKhz = assert(bf.loadScript("BOARD_INFO/"..mcuId..".lua"))().gyroSampleRateHz / 1000
-end 
+--if bf.apiVersion >= 1.44 then
+--    gyroSampleRateKhz = assert(bf.loadScript("BOARD_INFO/"..mcuId..".lua"))().gyroSampleRateHz / 1000
+--end 
 
 local escProtocols = { [0] = "PWM", "OS125", "OS42", "MSHOT" }
 

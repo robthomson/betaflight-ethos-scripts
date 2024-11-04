@@ -10,11 +10,11 @@ local labels = {}
 local fields = {}
 
 local vtx_tables
-if bf.apiVersion >= 1.42 then
-    vtx_tables = assert(bf.loadScript("VTX_TABLES/"..mcuId..".lua"), "No VTX table!")()
-else
+--if bf.apiVersion >= 1.42 then
+--    vtx_tables = assert(bf.loadScript("VTX_TABLES/"..mcuId..".lua"), "No VTX table!")()
+--else
     vtx_tables = assert(bf.loadScript("VTX_TABLES/vtx_defaults.lua"))()
-end
+--end
 local deviceTable = { [1]="6705", [3]="SA", [4]="Tramp", [255]="None" }
 local pitModeTable = { [0]="OFF", "ON" }
 
