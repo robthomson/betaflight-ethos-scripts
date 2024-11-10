@@ -1,9 +1,9 @@
 local PageFiles = {}
 
 --if bf.apiVersion >= 1.36 and features.vtx then
-if bf.apiVersion >= 1.36 then
-    PageFiles[#PageFiles + 1] = { title = "VTX Settings", script = "vtx.lua", init = "PAGES/INIT/vtx.lua" }
-end
+--if bf.apiVersion >= 1.36 then
+--    PageFiles[#PageFiles + 1] = { title = "VTX Settings", script = "vtx.lua", init = "PAGES/INIT/vtx.lua" }
+--end
 
 if bf.apiVersion >= 1.16 then
     PageFiles[#PageFiles + 1] = { title = "Profiles", script = "profiles.lua" }
