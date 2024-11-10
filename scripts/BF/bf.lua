@@ -1,6 +1,6 @@
 -- All BF globals should be stored in the bf table, to avoid conflict with globals from other scripts.
 bf = {
-    baseDir = "/scripts/BF/",
+    baseDir = "./",
     runningInSimulator = system:getVersion().simulation,
 
     sportTelemetryPop = function()
