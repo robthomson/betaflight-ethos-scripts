@@ -62,7 +62,7 @@ if bf.apiVersion >= 1.16 then
 end
 
 if bf.apiVersion >= 1.43 then
-    fields[#fields + 1] = { t = "Rates Type",     x = x,          y = inc.y(lineSpacing), sp = x + sp, min = 0, max = 4, vals = { 23 }, table = { [0] = "BF", "RF", "KISS", "ACTUAL", "QUICK"}, postEdit = function(self) self.updateRatesType(self, true) end }
+    fields[#fields + 1] = { t = "Rates Type",     x = x,          y = inc.y(lineSpacing), sp = x + sp, min = 0, max = 4, vals = { 23 }, table = { [0] = "BF", "RF", "KISS", "ACTUAL", "QUICK"}, postEdit = function(self, page) page.updateRatesType(page, true) end }
 end
 
 if bf.apiVersion >= 1.16 then

@@ -60,8 +60,8 @@ local EVT_VIRTUAL_NEXT = 98
 local MENU_TITLE_BGCOLOR, ITEM_TEXT_SELECTED, ITEM_TEXT_NORMAL, ITEM_TEXT_EDITING
 
 -- Initialize two global vars
-bit32 = assert(loadfile("/scripts/BF/LIBS/bit32.lua"))()
-assert(loadfile("/scripts/BF/bf.lua"))()
+bit32 = assert(loadfile("./LIBS/bit32.lua"))()
+assert(loadfile("./bf.lua"))()
 
 local function invalidatePages()
     Page = nil

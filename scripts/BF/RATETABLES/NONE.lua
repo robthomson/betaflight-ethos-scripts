@@ -10,9 +10,6 @@ return {
         { min = 0, max = 0 },
         { min = 0, max = 0 },
         { min = 0, max = 0 },
-        { min = 0, max = 0 },
-        { min = 0, max = 0 },
-        { min = 0, max = 0 }
     },
     defaults = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
 }
