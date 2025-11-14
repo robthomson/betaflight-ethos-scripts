@@ -1,5 +1,14 @@
 **BETAFLIGHT FOR ETHOS [TEXT MODE]**
 
+---
+This repository is now archived - future development will take place on bfsuite.
+
+https://github.com/robthomson/betaflight-ethos-suite
+
+for a far more ethos friendly environment.
+
+---
+
 
 <img src="https://github.com/robthomson/betaflight-ethos-scripts-simple/blob/main/gfx/main.png?raw=true" width="800" alt="MAIN PAGE">
 
